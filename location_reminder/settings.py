@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'location_reminder.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',  # 'django.db.backends.sqlite3',
-        'NAME': 'location_reminder',              # DB name
-    }
+    # 'default': {
+    #     'ENGINE': 'djongo',  # 'django.db.backends.sqlite3',
+    #     'NAME': 'location_reminder',              # DB name
+    # }
 }
 
 
